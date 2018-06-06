@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TEXT TO SPEECH"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text to speech:"
+        android:textColor="#FFFFFF"
+        android:layout_margin="10dp"
+        android:textColorHint="#FFFFFF"
+        android:gravity="center"
+        android:id="@+id/let1"/>
+    <ImageButton
+        android:layout_width="139dp"
+        android:layout_height="143dp"
+        android:src="@drawable/mic"
+        android:gravity="center"
+        android:id="@+id/b1"
+        android:layout_marginLeft="110dp"/>
+</LinearLayout>
